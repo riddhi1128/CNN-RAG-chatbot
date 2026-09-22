@@ -1,0 +1,7 @@
+fastapi + uvicorn:	the web server framework and the server that runs it
+tensorflow	: builds/trains the CNN, and runs inference in the backend
+pillow	:  image loading/resizing before feeding into the CNN
+anthropic :	official SDK to call Claude for the chatbot's response generation
+sentence-transformers : 	turns text (your knowledge base docs) into embeddings for retrieval
+chromadb	:  lightweight local vector database to store and search those embeddings
+python-dotenv	:  loads your API key from a .env file instead of hardcoding it
